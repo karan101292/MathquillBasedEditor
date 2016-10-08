@@ -1,0 +1,165 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:06
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-180-degrees-angle:before { content: "\f100"; }
+.flaticon-abacus-maths-tool:before { content: "\f101"; }
+.flaticon-abacus-silhouette:before { content: "\f102"; }
+.flaticon-absolute-mathematical-sign:before { content: "\f103"; }
+.flaticon-acute-angle-of-45-degrees:before { content: "\f104"; }
+.flaticon-angle-of-acute-shape:before { content: "\f105"; }
+.flaticon-bars-graphic:before { content: "\f106"; }
+.flaticon-bars-graphic-1:before { content: "\f107"; }
+.flaticon-because-mathematical-symbol:before { content: "\f108"; }
+.flaticon-blackboard-with-mathematical-basic-calculations:before { content: "\f109"; }
+.flaticon-blackboard-with-mathematical-symbol:before { content: "\f10a"; }
+.flaticon-book-of-mathematics:before { content: "\f10b"; }
+.flaticon-brackets-grouping-symbol:before { content: "\f10c"; }
+.flaticon-cake-graphic:before { content: "\f10d"; }
+.flaticon-cake-graphic-1:before { content: "\f10e"; }
+.flaticon-calculator-buttons-interface-symbol:before { content: "\f10f"; }
+.flaticon-calculator-maths-tool:before { content: "\f110"; }
+.flaticon-circle-with-vertical-line-mathematical-sign:before { content: "\f111"; }
+.flaticon-compass-and-ruler-for-mathematics:before { content: "\f112"; }
+.flaticon-compass-mathematics-tool-for-drawing-circles:before { content: "\f113"; }
+.flaticon-cone-geometrical-shape:before { content: "\f114"; }
+.flaticon-cube:before { content: "\f115"; }
+.flaticon-cube-geometrical-shape:before { content: "\f116"; }
+.flaticon-cube-outline:before { content: "\f117"; }
+.flaticon-cylinder-shape:before { content: "\f118"; }
+.flaticon-cylinder-volumetric-shape:before { content: "\f119"; }
+.flaticon-cylinder-volumetrical-shape:before { content: "\f11a"; }
+.flaticon-denial-mathematical-sign:before { content: "\f11b"; }
+.flaticon-divide:before { content: "\f11c"; }
+.flaticon-divide-mathematical-sign:before { content: "\f11d"; }
+.flaticon-does-not-precede-mathematical-symbol:before { content: "\f11e"; }
+.flaticon-does-not-precede-or-equal-mathematical-symbol:before { content: "\f11f"; }
+.flaticon-does-not-succeeds-mathematical-sign:before { content: "\f120"; }
+.flaticon-empty-set-mathematical-symbol:before { content: "\f121"; }
+.flaticon-equal-mathematical-sign:before { content: "\f122"; }
+.flaticon-for-all-mathematics-symbol:before { content: "\f123"; }
+.flaticon-function-mathematical-symbol:before { content: "\f124"; }
+.flaticon-greater-and-not-approximately-equal-to-mathematical-symbol:before { content: "\f125"; }
+.flaticon-greater-but-not-equal-mathematical-symbol:before { content: "\f126"; }
+.flaticon-greater-but-not-equivalent:before { content: "\f127"; }
+.flaticon-greater-than-and-single-line-not-equal-to-maths-sign:before { content: "\f128"; }
+.flaticon-greater-than-or-not-equal-mathematical-symbol:before { content: "\f129"; }
+.flaticon-hexagonal-prism-shape:before { content: "\f12a"; }
+.flaticon-identical-to-mathematical-symbol:before { content: "\f12b"; }
+.flaticon-implies-if-mathematical-sign:before { content: "\f12c"; }
+.flaticon-infinite-mathematical-symbol:before { content: "\f12d"; }
+.flaticon-integral-mathematical-sign:before { content: "\f12e"; }
+.flaticon-inverted-cone-shape:before { content: "\f12f"; }
+.flaticon-is-a-subset-of-mathematical-sign:before { content: "\f130"; }
+.flaticon-is-a-subset-of-mathematical-sign-1:before { content: "\f131"; }
+.flaticon-is-a-subset-of-mathematical-symbol:before { content: "\f132"; }
+.flaticon-is-a-subset-of-mathematical-symbol-1:before { content: "\f133"; }
+.flaticon-is-an-element-of-mathematical-symbol:before { content: "\f134"; }
+.flaticon-is-approximately-equal-to-symbol:before { content: "\f135"; }
+.flaticon-is-congruent-to-mathematical-symbol:before { content: "\f136"; }
+.flaticon-is-equal-to-or-greater-than-symbol:before { content: "\f137"; }
+.flaticon-is-greater-than-mathematical-sign:before { content: "\f138"; }
+.flaticon-is-greater-than-or-equal-to-mathematical-symbol:before { content: "\f139"; }
+.flaticon-is-less-than-mathematical-sign:before { content: "\f13a"; }
+.flaticon-is-less-than-or-equal-to-mathematical-symbol:before { content: "\f13b"; }
+.flaticon-is-less-than-or-equal-to-mathematical-symbol-1:before { content: "\f13c"; }
+.flaticon-is-not-a-subset-mathematical-sign:before { content: "\f13d"; }
+.flaticon-is-not-a-subset-symbol:before { content: "\f13e"; }
+.flaticon-is-not-an-element-of:before { content: "\f13f"; }
+.flaticon-is-not-equal-to-mathematical-symbol:before { content: "\f140"; }
+.flaticon-is-not-identical-with-mathematical-sign:before { content: "\f141"; }
+.flaticon-is-parallel-to-mathematical-sign:before { content: "\f142"; }
+.flaticon-is-similar-to-symbol:before { content: "\f143"; }
+.flaticon-less-and-not-approximately-equal-mathematical-symbol:before { content: "\f144"; }
+.flaticon-less-but-not-equivalent-mathematical-symbol:before { content: "\f145"; }
+.flaticon-less-plus-signs:before { content: "\f146"; }
+.flaticon-less-than-and-single-line-not-equal-to-mathematical-sign:before { content: "\f147"; }
+.flaticon-less-than-but-not-equal-to-mathematical-symbol:before { content: "\f148"; }
+.flaticon-less-vertical-not-equal-mathematical-symbol:before { content: "\f149"; }
+.flaticon-line-graphic:before { content: "\f14a"; }
+.flaticon-mathematical-basic-signs-of-plus-and-minus-with-a-slash:before { content: "\f14b"; }
+.flaticon-mathematical-symbols-that-does-not-match-or-equal:before { content: "\f14c"; }
+.flaticon-maths-compass-tool:before { content: "\f14d"; }
+.flaticon-maths-sign-if-and:before { content: "\f14e"; }
+.flaticon-minus-sign:before { content: "\f14f"; }
+.flaticon-multiply-mathematical-sign:before { content: "\f150"; }
+.flaticon-neither-greater-or-equal-mathematical-sign:before { content: "\f151"; }
+.flaticon-neither-greater-or-exactly-equal-mathematical-symbol:before { content: "\f152"; }
+.flaticon-neither-less-or-equal-mathematical-symbol:before { content: "\f153"; }
+.flaticon-neither-less-or-exactly-equal-mathematical-symbol:before { content: "\f154"; }
+.flaticon-not-a-subset-or-equal-symbol:before { content: "\f155"; }
+.flaticon-not-congruent:before { content: "\f156"; }
+.flaticon-not-divide-mathematical-symbol:before { content: "\f157"; }
+.flaticon-not-greater-mathematical-sign:before { content: "\f158"; }
+.flaticon-not-less-mathematical-symbol:before { content: "\f159"; }
+.flaticon-not-short-parallel-mathematical-sign:before { content: "\f15a"; }
+.flaticon-not-similar-mathematical-symbol:before { content: "\f15b"; }
+.flaticon-obtuse-angle-of-135-degrees:before { content: "\f15c"; }
+.flaticon-parabolic-function:before { content: "\f15d"; }
+.flaticon-parentheses-grouping-symbol:before { content: "\f15e"; }
+.flaticon-pencil-and-ruler:before { content: "\f15f"; }
+.flaticon-percent-for-hundred-mathematical-symbol:before { content: "\f160"; }
+.flaticon-percent-sign:before { content: "\f161"; }
+.flaticon-perpendicular-mathematical-symbol:before { content: "\f162"; }
+.flaticon-pi-mathematical-constant-symbol:before { content: "\f163"; }
+.flaticon-plus-less-mathematical-sign:before { content: "\f164"; }
+.flaticon-plus-positive-add-mathematical-symbol:before { content: "\f165"; }
+.flaticon-product-mathematical-symbol:before { content: "\f166"; }
+.flaticon-proportion-mathematical-sign-of-four-points:before { content: "\f167"; }
+.flaticon-radius-of-circle:before { content: "\f168"; }
+.flaticon-reason-mathematical-symbol:before { content: "\f169"; }
+.flaticon-rectangular-prism:before { content: "\f16a"; }
+.flaticon-rectangular-prism-volume-shape:before { content: "\f16b"; }
+.flaticon-right-angle-of-90-degrees:before { content: "\f16c"; }
+.flaticon-ruler-and-square-measuring-tools:before { content: "\f16d"; }
+.flaticon-semicircle-with-ruler:before { content: "\f16e"; }
+.flaticon-set-square-school-tool:before { content: "\f16f"; }
+.flaticon-set-square-triangle:before { content: "\f170"; }
+.flaticon-sphere:before { content: "\f171"; }
+.flaticon-square-root-mathematical-sign:before { content: "\f172"; }
+.flaticon-square-root-mathematical-symbol:before { content: "\f173"; }
+.flaticon-square-root-of-x-mathematical-signs:before { content: "\f174"; }
+.flaticon-subset-of-above-not-equal-mathematical-symbol:before { content: "\f175"; }
+.flaticon-subset-of-above-not-equal-to-mathematical-symbol:before { content: "\f176"; }
+.flaticon-subset-of-above-not-equal-to-symbol:before { content: "\f177"; }
+.flaticon-subset-of-with-not-equal-mathematical-symbol:before { content: "\f178"; }
+.flaticon-superset-of-above-not-equal-to-mathematical-symbol:before { content: "\f179"; }
+.flaticon-superset-of-above-not-equal-to-symbol:before { content: "\f17a"; }
+.flaticon-superset-of-above-not-equal-to-symbol-1:before { content: "\f17b"; }
+.flaticon-superset-with-not-equal-mathematical-sign:before { content: "\f17c"; }
+.flaticon-the-intersection-of-mathematical-symbol:before { content: "\f17d"; }
+.flaticon-the-set-of-mathematical-symbol:before { content: "\f17e"; }
+.flaticon-the-sum-of-mathematical-symbol:before { content: "\f17f"; }
+.flaticon-there-exists-mathematical-symbol:before { content: "\f180"; }
+.flaticon-therefore-mathematical-symbol:before { content: "\f181"; }
+.flaticon-triangular-prism-outline:before { content: "\f182"; }
+.flaticon-triangular-pyramid-from-top-view:before { content: "\f183"; }
+.flaticon-triangular-pyramid-volumetrical-shape:before { content: "\f184"; }
+.flaticon-trigonometry:before { content: "\f185"; }

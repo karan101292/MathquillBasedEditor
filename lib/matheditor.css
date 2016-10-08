@@ -1,0 +1,32 @@
+.op-btn{
+	width: 45px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #aaa;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background: rgba(221, 221, 221, 0.53);
+    cursor: pointer;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.op-btn:hover{
+	background: rgb(221, 221, 221);
+}
+.matheditor-header{
+	margin-bottom: 3px;
+	border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 4px;
+    background: #eee;
+}
+
+.mq-editable-field, .mq-math-mode .mq-editable-field{
+	border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.mq-editable-field.mq-focused{
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+}
