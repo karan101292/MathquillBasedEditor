@@ -13,10 +13,10 @@
 .op-btn:hover{
 	background: #FFF;
 }
-.matheditor-wrapper{
+div[class^="matheditor-wrapper-"]{
 	margin: auto;
 }
-.matheditor-toolbar{
+div[class^="matheditor-toolbar-"]{
 	margin-bottom: 3px;
 	border: 1px solid #ddd;
     padding: 5px;
@@ -24,15 +24,19 @@
     background: #FFF;
 }
 
-.mq-editable-field, .mq-math-mode .mq-editable-field{
+div[class^="matheditor-wrapper-"] .mq-editable-field, .mq-math-mode .mq-editable-field{
 	border: 1px solid #ddd;
     border-radius: 4px;
 }
-.mq-editable-field.mq-focused{
+div[class^="matheditor-wrapper-"] .mq-editable-field.mq-focused{
 	border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: none;
 }
-.op-btn img {
+div[class^="matheditor-wrapper-"] .op-btn img {
     width: 14pt;
+}
+div[class^="matheditor-wrapper-"] .mq-root-block, .mq-math-mode .mq-root-block{
+	white-space: initial;
+	word-wrap: break-word;
 }
