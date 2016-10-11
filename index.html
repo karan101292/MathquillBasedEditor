@@ -5,6 +5,7 @@
 </head>
 <body style="background:#F6F4F4">
   <div id="answer"></div>
+  <div id="answer1"></div>
 
 </body>
 
@@ -13,6 +14,7 @@
 <script src="lib/matheditor.js"></script>
 <script type="text/javascript">
   var me = new MathEditor('answer');
+  var me1 = new MathEditor('answer1');
   
 
    // me.buttons(["lkjlj","fraction","square_root","cube_root","root",'superscript','subscript']);
@@ -22,7 +24,7 @@
   //   height: '80',
   //   textarea_background: '#eee'
   // });
-  // me.getValue();
+  me.getValue('answer');
 
 </script>
 
