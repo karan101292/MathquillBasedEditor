@@ -61,7 +61,7 @@ mathEditor.getValue();
 ### styleMe()
 Attribute | Type | Default | Description
 --------- | ---- | ------- | -----------
-width|`string`|`500`|It will define minimum with for your editor
+width|`string`|`500`|It will define minimum width for your editor
 height|`string`|`40`|It will define minimum height for your editor
 textarea_background|`string`|`#FFFFFF`|Background color for your editor textarea<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
 textarea_foreground|`string`|`#000000`|Text color for your editor textarea<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
@@ -72,6 +72,6 @@ toolbar_border|`string`|`#000000`|Border color for your editor toolbar<br>eg. 'w
 button_background|`string`|`#FFFFFF`|Background color for your editor toolbar button<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
 button_border|`string`|`#000000`|Border color for your editor toolbar button<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
 
-## Help us improve
+## Help us Improve
 #### [Donate us](https://www.paypal.me/KBhutwala)
 
