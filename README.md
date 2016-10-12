@@ -72,3 +72,6 @@ toolbar_border|`string`|`#000000`|Border color for your editor toolbar<br>eg. 'w
 button_background|`string`|`#FFFFFF`|Background color for your editor toolbar button<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
 button_border|`string`|`#000000`|Border color for your editor toolbar button<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
 
+## Help us improve
+#### [Donate us](https://www.paypal.me/KBhutwala)
+
