@@ -1,5 +1,5 @@
 .op-btn{
-	width: 45px;
+    width: 45px;
     height: 30px;
     background: transparent;
     border: 1px solid #ddd;
@@ -9,43 +9,48 @@
     cursor: pointer;
     overflow: hidden;
     vertical-align: middle;
+    display: inline-block;
 }
 .op-btn:hover{
-	background: #FFF;
+    background: #FFF;
 }
 div[class^="matheditor-wrapper-"]{
-	margin: auto;
+    /*margin: auto;*/
 }
 div[class^="matheditor-toolbar-"]{
-	margin-bottom: 3px;
-	border: 1px solid #ddd;
+    margin-bottom: 3px;
+    border: 1px solid #ddd;
     padding: 5px;
     border-radius: 4px;
     background: #FFF;
 }
 
 div[class^="matheditor-wrapper-"] .mq-editable-field, .mq-math-mode .mq-editable-field{
-	border: 1px solid #ddd;
+    border: 1px solid #ddd;
     border-radius: 4px;
 }
 div[class^="matheditor-wrapper-"] .mq-editable-field.mq-focused{
-	border: 1px solid #ddd;
+    border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: none;
 }
 div[class^="matheditor-wrapper-"] .op-btn img {
     width: 14pt;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 5px;
 }
 div[class^="matheditor-wrapper-"] .mq-root-block, .mq-math-mode .mq-root-block{
-	white-space: initial;
-	word-wrap: break-word;
+    white-space: initial;
+    word-wrap: break-word;
 }
 
 div[class^="matheditor-wrapper-"] ul.tabs{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #f4f4f4;
     margin-bottom: 5px;
 }
 div[class^="matheditor-wrapper-"] ul.tabs li{
@@ -59,12 +64,13 @@ div[class^="matheditor-wrapper-"] ul.tabs li{
 div[class^="matheditor-wrapper-"] ul.tabs li.current{
     background: #F9F9F9;
     color: #222;
+    font-weight: bold;
 }
 
-div[class^="matheditor-wrapper-"] .tab-content{
+div[class^="matheditor-wrapper-"] .tab-content-me{
     display: none;
 }
 
-div[class^="matheditor-wrapper-"] .tab-content.current{
+div[class^="matheditor-wrapper-"] .tab-content-me.current{
     display: inline-block;
 }
