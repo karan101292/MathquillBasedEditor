@@ -10,9 +10,15 @@
     overflow: hidden;
     vertical-align: middle;
     display: inline-block;
+    color: #000000;
 }
 .op-btn:hover{
     background: #FFF;
+}
+.op-btn .op-btn-icon{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
 }
 div[class^="matheditor-wrapper-"]{
     /*margin: auto;*/
@@ -73,4 +79,19 @@ div[class^="matheditor-wrapper-"] .tab-content-me{
 
 div[class^="matheditor-wrapper-"] .tab-content-me.current{
     display: inline-block;
+}
+
+#selectable-cube_root .mq-root-block, #selectable-root .mq-root-block, #selectable-square_root .mq-root-block{
+    padding-top: 8px !important;
+    font-size: 10pt;
+}
+
+#tab-2 .mq-root-block, #tab-3 .mq-root-block{
+    padding-top: 4px !important;
+    font-size: 15pt;
+}
+
+.mq-math-mode var.mq-f {
+    margin-right: 0;
+    margin-left: 0;
 }
