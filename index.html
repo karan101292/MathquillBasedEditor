@@ -4,7 +4,7 @@
 <link href="lib/matheditor.css" rel="stylesheet">
 </head>
 <body style="background:#F6F4F4">
-  <div id="answer"></div>
+  <div id="answer" onfocus="blur();"></div>
 
 </body>
 
@@ -14,6 +14,7 @@
 <script type="text/javascript">
   var me = new MathEditor('answer');
   // me.buttons(['fraction'])
+  // me.setTemplate('keypad')
 
 </script>
 

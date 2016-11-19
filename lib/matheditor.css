@@ -105,7 +105,41 @@ span#close-btn{
     color: #999;
     cursor: pointer;
 }
-
+div[id^="keys-"]{
+    text-align: center;
+    /* display: none; */
+}
+div[id^="keys-"] .ks{
+    border: 1px solid #eee;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background: #dddddd;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+div[id^="keys-"] .ks:hover{
+    background: #cccccc;
+}
+div[id^="keys-"] .ks:active{
+    background: #bbbbbb;
+}
+div[id^="keys-"] .ks.long{
+    width: 45px;
+}
+div[id^="keys-"] .ks.icon{
+    font-weight: bold;
+    font-size: 10pt;
+}
+div[id^="keys-"] .ks.takeup{
+    background: #FFC0CB
+}
+div[id^="keys-"] .ks.too_long{
+    width: 150px;
+}
 div.close-btn{
     height: 30px;
     position: relative;
