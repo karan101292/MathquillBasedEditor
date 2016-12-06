@@ -107,19 +107,26 @@ span#close-btn{
 }
 div[id^="keys-"]{
     text-align: center;
-    /* display: none; */
+    display: none; 
+    position:fixed;
+    z-index:999999;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background: #f5f5f5;
 }
 div[id^="keys-"] .ks{
-    border: 1px solid #eee;
-    height: 30px;
-    width: 30px;
+    /*border: 1px solid #eee;*/
+    height: 45px;
+    width: 35px;
     display: inline-block;
-    background: #dddddd;
+    background: #f5f5f5;
     text-align: center;
-    line-height: 30px;
+    line-height: 45px;
     text-decoration: none;
     color: #000000;
     cursor: pointer;
+    font-size: 14pt;
 }
 div[id^="keys-"] .ks:hover{
     background: #cccccc;
@@ -132,7 +139,7 @@ div[id^="keys-"] .ks.long{
 }
 div[id^="keys-"] .ks.icon{
     font-weight: bold;
-    font-size: 10pt;
+    font-size: 14pt;
 }
 div[id^="keys-"] .ks.takeup{
     background: #FFC0CB
