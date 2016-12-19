@@ -52,8 +52,12 @@ mathEditor.styleMe({
 mathEditor.setTemplate('floating-toolbar');
 // It will make button toolbar floating.
 
-mathEditor.getValue();
+mathEditor.getLatex();
 // It will return letex for input formula.
+
+mathEditor.setLatex('\\frac{1}{2}');
+// It will set letex in input area.
+// It accepts any latex string.
 ```
 
 ## Options
