@@ -37,7 +37,7 @@ Create MathEditor Instance and set all the options you required.
 
 var mathEditor = new MathEditor('some_id');
 
-mathEditor.buttons(["fraction","square_root","cube_root","root",'superscript','subscript']);
+mathEditor.addButtons(["fraction","square_root","cube_root","root",'superscript','subscript']);
 // If you dont write this line editor will display default buttons. 
 
 mathEditor.removeButtons(["fraction","square_root"])
@@ -49,9 +49,8 @@ mathEditor.styleMe({
 });
 // List of other options are mentioned bellow.
 
-mathEditor.setTemplate('keypad');
-// It will make button toolbar look like keypad.
-// More options would be added.
+mathEditor.setTemplate('floating-toolbar');
+// It will make button toolbar floating.
 
 mathEditor.getValue();
 // It will return letex for input formula.

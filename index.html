@@ -3,8 +3,8 @@
 <link href="lib/mathquill.css" rel="stylesheet">
 <link href="lib/matheditor.css" rel="stylesheet">
 </head>
-<body style="background:#F6F4F4">
-  <div id="answer" onfocus="blur();"></div>
+<body style="background:#F6F4F4;overflow:hidden">
+  <div id="answer"></div>
 
 </body>
 
@@ -13,8 +13,8 @@
 <script src="lib/matheditor.js"></script>
 <script type="text/javascript">
   var me = new MathEditor('answer');
-  // me.buttons(['fraction'])
-  // me.setTemplate('keypad')
+  // me.removeButtons(['fraction']);
+  // me.setTemplate('floating-toolbar');
 
 </script>
 

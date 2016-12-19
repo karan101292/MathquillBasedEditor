@@ -11,6 +11,7 @@
     vertical-align: middle;
     display: inline-block;
     color: #000000;
+    font-size: 10pt;
 }
 .op-btn:hover{
     background: #FFF;
@@ -30,7 +31,9 @@ div[class^="matheditor-toolbar-"]{
     border-radius: 4px;
     background: #FFF;
 }
-
+div[class^="matheditor-wrapper-"] sup{
+    top: 0;
+}
 div[class^="matheditor-wrapper-"] .mq-editable-field, .mq-math-mode .mq-editable-field{
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -82,7 +85,7 @@ div[class^="matheditor-wrapper-"] .tab-content-me.current{
 }
 
 [id^="selectable-cube_root-"] .mq-root-block, [id^="selectable-root-"] .mq-root-block, [id^="selectable-square_root-"] .mq-root-block{
-   padding-top: 8px !important;
+   padding-top: 5px !important;
    font-size: 10pt;
 }
 
@@ -98,11 +101,10 @@ div[class^="matheditor-wrapper-"] .tab-content-me.current{
 
 span#close-btn{
     float: right;
-    font-weight: bold;
     border: 1px solid;
     border-radius: 3px;
     padding: 0px 5px;
-    color: #999;
+    color: pink;
     cursor: pointer;
 }
 div[id^="keys-"]{
@@ -116,7 +118,6 @@ div[id^="keys-"]{
     background: #f5f5f5;
 }
 div[id^="keys-"] .ks{
-    /*border: 1px solid #eee;*/
     height: 45px;
     width: 35px;
     display: inline-block;
@@ -145,7 +146,7 @@ div[id^="keys-"] .ks.takeup{
     background: #FFC0CB
 }
 div[id^="keys-"] .ks.too_long{
-    width: 150px;
+    background: #eeeeee;
 }
 div.close-btn{
     height: 30px;
