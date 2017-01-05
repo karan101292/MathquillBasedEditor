@@ -57,6 +57,9 @@
 .mq-editable-field .mq-latex-command-input.mq-hasCursor {
   border-color: ActiveBorder;
 }
+.mq-editable-field span.mq-hasCursor{
+  box-shadow: #68b4df 0 0 3px 2px; 
+}
 .mq-editable-field.mq-empty:after,
 .mq-editable-field.mq-text-mode:after,
 .mq-math-mode .mq-empty:after {

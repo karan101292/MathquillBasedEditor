@@ -1,4 +1,4 @@
-.op-btn{
+.matheditor-btn-span{
     width: 45px;
     height: 30px;
     background: transparent;
@@ -12,9 +12,14 @@
     display: inline-block;
     color: #000000;
     font-size: 10pt;
+    line-height: 30px;
 }
-.op-btn:hover{
+.matheditor-btn-span:hover{
     background: #FFF;
+    border: 1px solid #aaa
+}
+.op-btn{
+    
 }
 .op-btn .op-btn-icon{
     width: 100%;
@@ -53,6 +58,7 @@ div[class^="matheditor-wrapper-"] .op-btn img {
 div[class^="matheditor-wrapper-"] .mq-root-block, .mq-math-mode .mq-root-block{
     white-space: initial;
     word-wrap: break-word;
+    box-shadow: none !important;
 }
 
 div[class^="matheditor-wrapper-"] ul[class^="tabs-"]{
