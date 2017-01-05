@@ -75,6 +75,10 @@ toolbar_border|`string`|`#000000`|Border color for your editor toolbar<br>eg. 'w
 button_background|`string`|`#FFFFFF`|Background color for your editor toolbar button<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
 button_border|`string`|`#000000`|Border color for your editor toolbar button<br>eg. 'white', '#FFFFFF', 'rgba(255,255,255,0.5)'
 
+## TinyMCE Support
+- You can integrate our MathEditor to tinyMCE with easy implementation.
+- [Click here](https://github.com/SinghSatyam/math_editor) for documentation.
+
 ## Help us Improve
 #### [Donate us](https://www.paypal.me/KBhutwala)
 
