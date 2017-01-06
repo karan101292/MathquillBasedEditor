@@ -18,8 +18,8 @@
     background: #FFF;
     border: 1px solid #aaa
 }
-.op-btn{
-    
+.mq-editable-field span.mq-hasCursor{
+  box-shadow: #68b4df 0 0 3px 2px !important; 
 }
 .op-btn .op-btn-icon{
     width: 100%;
