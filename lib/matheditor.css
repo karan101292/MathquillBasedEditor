@@ -104,8 +104,7 @@ div[class^="matheditor-wrapper-"] .tab-content-me.current{
     margin-right: 0;
     margin-left: 0;
 }
-
-span#close-btn{
+span[id^="close-btn-"]{
     float: right;
     border: 1px solid;
     border-radius: 3px;
