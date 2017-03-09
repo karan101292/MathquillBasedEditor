@@ -5,6 +5,11 @@
 </head>
 <body style="background:#F6F4F4;overflow:hidden">
   <div id="answer"></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div id="answer1"></div>
 
 </body>
 
@@ -13,8 +18,12 @@
 <script src="lib/matheditor.js"></script>
 <script type="text/javascript">
   var me = new MathEditor('answer');
+  var me1 = new MathEditor('answer1');
   // me.removeButtons(['fraction']);
-  // me.setTemplate('floating-toolbar');
+ 
+
+  me1.setTemplate('floating-toolbar');
+  me.setTemplate('floating-toolbar',300,300);
 
 </script>
 
